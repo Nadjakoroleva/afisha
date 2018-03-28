@@ -1,0 +1,99 @@
+.main-wrapper {
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-bottom: 75px;
+    margin-right: 70px;
+}
+
+.main-title {
+    text-transform: uppercase;
+    font-family: "Aeroport-Bold";
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+.menu {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row
+}
+
+.menu-filters {
+    margin-left: 230px;
+}
+
+.section-desc {
+    padding-top: 70px;
+}
+
+.section-title {
+    font-family: "Geometria Narrow";
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.5;
+}
+
+.section-text {
+    width: 250px;
+    text-align: left;
+}
+
+.section-cover {
+    display: flex;
+    flex-direction: row;
+}
+
+.section-pic {
+    padding-left: 160px;
+    margin-top: -30px;
+}
+
+.section-wrapper {
+    padding-top: 70px;
+}
+
+.section-place {
+    font-family: "Aeroport-Bold";
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 1.5;
+    width: 220px;
+}
+
+.section-place__address {
+    color: #8D8D8D;
+}
+
+.section-place__name {
+    padding-top: 70px;
+}
+
+.schedule-time {
+    font-family: "Aeroport";
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 1.5; 
+}
+
+.schedule-price {
+    font-family: "Aeroport";
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 1.5; 
+    color:  #8D8D8D;
+}
+
+.bottom-info {
+    padding-top: 70px;
+    width: 800px;
+    border-bottom: 1px solid #8D8D8D;
+}
+
+.bottom-info__text {
+    font-family: "Aeroport";
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 45px; 
+    color:  #8D8D8D;
+}
