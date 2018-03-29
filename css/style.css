@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    min-width: 1200px;
+  }
+
 .main-wrapper {
     margin-top: 70px;
     margin-left: 70px;
@@ -31,7 +36,6 @@
     font-family: "Geometria Narrow";
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.5;
 }
 
 .section-text {
@@ -49,8 +53,21 @@
     margin-top: -30px;
 }
 
+.section-pic2 {
+    margin-top: -80px;
+}
+
+.section-pic3 {
+    margin-top: -135px;
+}
+
 .section-wrapper {
     padding-top: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1200px;
 }
 
 .section-place {
@@ -58,7 +75,7 @@
     font-weight: bold;
     font-size: 21px;
     line-height: 1.5;
-    width: 220px;
+    width: 210px;
 }
 
 .section-place__address {
@@ -67,6 +84,11 @@
 
 .section-place__name {
     padding-top: 70px;
+}
+
+.schedule {
+    display: flex;
+    flex-direction: row;
 }
 
 .schedule-time {
@@ -86,7 +108,7 @@
 
 .bottom-info {
     padding-top: 70px;
-    width: 800px;
+    width: 1100px;
     border-bottom: 1px solid #8D8D8D;
 }
 
@@ -96,4 +118,11 @@
     font-size: 17px;
     line-height: 45px; 
     color:  #8D8D8D;
+}
+
+.schedule-column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    padding-top: 28px;
 }
