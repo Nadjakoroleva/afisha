@@ -4,22 +4,23 @@ body {
   }
 
 .main-wrapper {
-    margin-top: 70px;
-    margin-left: 70px;
+    margin-top: 120px;
+    margin-left: 50px;
     margin-bottom: 75px;
-    margin-right: 70px;
+    padding-right: 70px;
 }
 
 .main-title {
     text-transform: uppercase;
-    font-family: "Aeroport-Bold";
+    font-family: "Aeroport";
     font-weight: bold;
-    font-size: 30px;
-    line-height: 1.5;
+    font-size: 20px;
+    line-height: 1.67;
+    letter-spacing: 0.4px;
 }
 
 .menu {
-    padding-top: 60px;
+    padding-top: 50px;
     display: flex;
     flex-direction: row
 }
@@ -28,10 +29,16 @@ body {
     position: relative;
 }
 
+.menu-calendar {
+    position: absolute;
+    top: 250px;
+    left: 50px;
+}
+
 .menu-date::after {
     position: absolute;
     content: url('../img/narrow-down.svg');
-    left: 170px;
+    left: 180px;
     top: 1px;
 }
 
@@ -43,12 +50,12 @@ body {
 .menu-filters::after {
     position: absolute;
     content: url('../img/narrow-down.svg');
-    left: 80px;
+    left: 90px;
     top: 1px;
 }
 
 .section-desc {
-    padding-top: 70px;
+    padding-top: 65px;
 }
 
 .section-title {
@@ -60,28 +67,32 @@ body {
 .section-text {
     width: 250px;
     text-align: left;
+    line-height: 1.47;
+    letter-spacing: 0.7px;
+    width: 284px;
 }
 
 .section-cover {
     display: flex;
     flex-direction: row;
+    padding-top: 10px;
 }
 
 .section-pic {
-    padding-left: 160px;
-    margin-top: -30px;
+    padding-left: 130px;
+    margin-top: -40px;
 }
 
 .section-pic2 {
-    margin-top: -80px;
+    margin-top: -100px;
 }
 
 .section-pic3 {
-    margin-top: -135px;
+    margin-top: -155px;
 }
 
 .section-wrapper {
-    padding-top: 70px;
+    padding-top: 1px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -93,7 +104,7 @@ body {
     font-family: "Aeroport-Bold";
     font-weight: bold;
     font-size: 21px;
-    line-height: 1.5;
+    line-height: 1.29;
     width: 210px;
 }
 
@@ -105,15 +116,16 @@ body {
     padding-top: 70px;
 }
 
-.section-narrow__left{
+.section-narrow__left {
     position: relative;
+    margin-left: 130px;
 }
 
 .section-narrow__left::before {
     position: absolute;
     content: url('../img/narrow-left.svg');
-    left: 30px;
-    top: 7px;
+    left: 8px;
+    top: 10px;
 }
 
 .section-narrow__right {
@@ -123,8 +135,8 @@ body {
 .section-narrow__right::after {
     position: absolute;
     content: url('../img/narrow-left.svg');
-    left: 30px;
-    top: 7px;
+    left: 60px;
+    top: 10px;
     transform: scaleX(-1);
 }
 
@@ -151,7 +163,7 @@ body {
 
 .bottom-info {
     padding-top: 70px;
-    width: 1150px;
+    width: 1195px;
     border-bottom: 1px solid #8D8D8D;
 }
 
@@ -167,7 +179,8 @@ body {
     display: flex;
     flex-direction: column;
     margin-left: 70px;
-    padding-top: 28px;
+    padding-top: 40px;
+    width: 28px;
 }
 
 .bottom-info__narrow {
@@ -177,7 +190,14 @@ body {
 .bottom-info__narrow::after {
     position: absolute;
     content: url('../img/narrow-left.svg');
-    right: 10px;
-    bottom: 11px;
+    right: -1px;
+    bottom: 20px;
     transform: rotate(-90deg);
+}
+
+@media (min-width: 768px) {
+    .section-pic {
+        width: 334px;
+        height: 189px;
+    }
 }
